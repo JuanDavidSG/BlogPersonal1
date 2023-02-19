@@ -1,0 +1,46 @@
+<style type="text/css">
+			#contactos
+			{
+				padding: 40px;
+				background: #E3E3E3;				
+			}
+			#cabecera
+			{
+				padding: 100px;
+				background-image: url(g1.gif);
+			}
+			#menu
+			{
+				background: #FFFF00;
+				padding: 10px 15px;
+			}	
+			
+			#barraPrincipal
+			{				
+				float: left;
+				width: 850px;
+				margin: 20px 50px;
+				padding: 40px 40px 40px 40px;
+				background: #E3E3E3 ;
+			}
+
+			#barraLateral
+			{
+				float: left;
+				width: 220px;
+				margin: 20px;
+				padding: 20px;
+				background: #FFC101;
+			}	
+			#piePagina
+			{				
+				clear: both;
+				text-align: center;
+				padding: 18px;
+				border-top: 6px solid #FFFF00;
+			}
+
+			h1{
+				color: rgba(255, 193, 1);
+			}
+			</style>

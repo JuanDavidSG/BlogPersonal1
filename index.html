@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> El blog de JDSG</title>
+		
+	</head>
+	<body>
+		<footer id="contactos">				
+		</footer>
+		<header id="cabecera">			
+		</header>
+		<br>
+		<nav id ="menu">
+			<ul>
+				<center><a href="#barraPrincipal"> Principal </a>   &nbsp &nbsp &nbsp 
+				<a href="#piePagina"> Suscribete </a>  &nbsp &nbsp &nbsp 
+				<a href="#barraLateral"> Contacto </a></center>
+			</ul>
+		</nav>
+		<section id="barraPrincipal">
+			
+				<header> <h1><center> <font size="50"> MI BLOG PERSONAL </font>  </center> </h1></header>
+	
+				<p> <center>¡Hola! Bienvenido a mi blog personal en donde comparto mi vida y mis experiencias. Me llamo Juan David y soy un joven estudiante de la Universidad de La Sabana. En este Blog Personal comparto experiencias, vivencias y reflexiones en el camino hacia una formación como futuro ingeniero de Colombia. Espero que disfrutes leyendo de mis entradas y que encuentres inspiración y motivación en ellas. Por medio de este blog compartiré mi proceso de aprendizaje continuo, como he formado mi vida académica hasta la actualidad y como me proyecto a futuro. Bienvenido!!! </center></p>
+				<br>
+				<center><img src="g3Blog.png" width="500px" height="300px"></center><br> <br>	
+				 
+				<img src="g11.png" width="400px" height="500px" > &nbsp 
+				<img src="g12.png" width="400px" height="500px" > 
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="jardin.html"><font size="8">LEER MÁS</font></a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+				<a href="primaria.html"> <font size="8">LEER MÁS</font></a><br> <br>
+				<img src="g13.png" width="400px" height="500px"> &nbsp 
+				<img src="g14.png" width="400px" height="500px"><br>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp&nbsp &nbsp &nbsp &nbsp <a href="bachillerato.html"><font size="8">LEER MÁS</font></a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+				<a href="pregrado.html"><font size="8">LEER MÁS</font></a><br> <br>
+					
+				<img src="g15.png" width="400px" height="500px"> <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+				<a href="futuro.html"> <font size="8">LEER MÁS</font> </a>
+					
+		</section>
+		<aside id="barraLateral">
+			<h2>Categorias</h2>
+			<li><a href="jardin.html">El jardín</a></li><br>
+			<li><a href="primaria.html">Primaria</a></li><br>
+			<li><a href="bachillerato.html">Bachillerato</a></li><br>
+			<li><a href="pregrado.html">Universidad</a></li><br>
+			<li><a href="futuro.html">En el futuro</a></li><br>
+			<h2>Contacto</h2>
+			Núm. 312-6393763
+			<h2>Archivos</h2>
+			<img src="g18.png" width="230px" height="200px"> <br> <br>
+			<iframe width="230" height="200" src="https://www.youtube.com/embed/4AFGUA52PjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<h2>Recursos</h2>
+			<button> <a target="_blank" href="https://www.mineducacion.gov.co/1759/articles-356787_recurso_1.pdf"> Educación en Colombia </a> </button> <br> <br>
+			<button> <a target="_blank" href="https://www.redalyc.org/journal/944/94454631006/94454631006.pdf"> La industria 4.0 </a> </button>		
+			
+		</aside>
+		<footer id="piePagina">
+			<h2 style="color: #FFC101;">Suscribete a mi Blog Personal!!!</h2>
+			Primer nombre: <input type="text" name="Recibir texto 1" id= "Tx_1"> &nbsp &nbsp &nbsp
+
+			Segundo nombre: <input type="text" name="Recibir texto 2" id= "Tx_2">
+
+			<br><br>
+
+			Primer apellido: <input type="text" name="Recibir texto 3" id="Tx_3"> &nbsp &nbsp &nbsp
+			Segundo apellido: <input type="text" name="Recibir texto 4" id="Tx_4"></p> 
+
+			<button onclick="accion_4()" id="BL4"> ENVIAR </button> <br> <br>
+			<p style="color: #FFC101;">© 2023 Mi blog personal. Escrito por Juan David Sánchez González </p>
+		</footer>
+
+			<script type="text/javascript">
+			function accion_4()
+			{
+				var nombreCompleto = document.getElementById("Tx_1").value+" "+
+									document.getElementById("Tx_2").value+" "+
+									document.getElementById("Tx_3").value+" "+
+									document.getElementById("Tx_4").value
+
+				alert("Gracias! "+ nombreCompleto + " Te has suscrito al blog de JDSG!!!")
+			}
+		</script>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		
+
+	</body>
+</html>
